@@ -50,7 +50,7 @@ else
 fi
 
 #./aria2c -D --enable-rpc --rpc-listen-all --rpc-listen-port=6800 --log=$QPKG_ROOT/aria.log
-./aria2c --conf-path=$QPKG_ROOT/aria2.conf --log=$QPKG_ROOT/aria.log --input-file=$QPKG_ROOT/aria2.session --save-session=$QPKG_ROOT/aria2.session --rpc-certificate=$QPKG_ROOT/certificate/4489661_allegro0132.cn_public.pem --rpc-private-key=$QPKG_ROOT/certificate/4489661_allegro0132.cn.key
+./aria2c --conf-path=$QPKG_ROOT/aria2.conf --log=$QPKG_ROOT/aria.log --input-file=$QPKG_ROOT/aria2.session --save-session=$QPKG_ROOT/aria2.session --rpc-certificate=$QPKG_ROOT/certificate/yourcertificate.pem --rpc-private-key=$QPKG_ROOT/certificate/yourprivitekey.key
 
     ;;
 
